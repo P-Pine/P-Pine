@@ -1,4 +1,4 @@
-<h1 align="center">P Pine</h1>
+<h1 align="center">P-Pine</h1>
 
 <p align="center">
     <img src="https://i.imgur.com/dlmwDxq.png" width="75px" />

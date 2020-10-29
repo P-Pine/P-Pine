@@ -4,7 +4,7 @@
     <img src="https://i.imgur.com/dlmwDxq.png" width="75px" />
 </p>
 
-<p align="center">A React UI framework based on atomic design by Brad Frost.</p>
+<p align="center">A UI framework for React based on atomic design by Brad Frost.</p>
 
 ![hero](https://i.imgur.com/zVTCkPD.png)
 

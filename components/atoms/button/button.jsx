@@ -15,16 +15,16 @@ const Icons = {
   x: IconX,
 };
 
-const Button = ({ children, href, icon, onClick, variant }) => {
+const Button = ({ children, href, icon, onClick, variant, round }) => {
   if (!href)
     return (
-      <StyledButton onClick={onClick} variant={variant}>
+      <StyledButton onClick={onClick} variant={variant} round={round}>
         {icon && <ButtonIcon name={icon} />}
         {children}
       </StyledButton>
     );
   return (
-    <StyledLinkButton href={href} variant={variant}>
+    <StyledLinkButton href={href} variant={variant} round={round}>
       {icon && <ButtonIcon name={icon} />}
       {children}
     </StyledLinkButton>

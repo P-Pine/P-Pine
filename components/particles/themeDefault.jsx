@@ -23,7 +23,8 @@ const themeDefault = {
   purple700: "#341B97",
   purple800: "#25136C",
   purple900: "#170C41",
-  primary: "#5D3DDC",
+  primary: "#121212",
+  primaryHover: "#3d3d3d",
   primary100: "#EDE9FB",
   primary200: "#C9BEF3",
   primary300: "#A593EC",
@@ -33,8 +34,13 @@ const themeDefault = {
   primary700: "#341B97",
   primary800: "#25136C",
   primary900: "#170C41",
-  secondary: "#3788A1",
+  secondary: "#00A3FF",
+  secondaryHover: "#007fc9",
   tertiary: "#2ECDBA",
+  tertiaryHover: "#27aa9b",
+  br5: "5px",
+  br8: "8px",
+  br10: "10px",
 };
 
 module.exports = themeDefault;

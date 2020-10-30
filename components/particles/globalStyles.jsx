@@ -2,6 +2,8 @@ import "normalize.css/normalize.css";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 		/* Accessibly remove animations: https://gist.githubusercontent.com/bellangerq/6cdfe6e3701b4048c72546960c7c9f66/raw/dc5036697d0da57eff8e0f659106b319102e72a0/a11y-disable-animations.css */
 	@media (prefers-reduced-motion: reduce) {
 		*,
@@ -23,7 +25,6 @@ const GlobalStyle = createGlobalStyle`
 		-webkit-font-variant-ligatures: none;
 		text-rendering: optimizeLegibility;
 		-moz-osx-font-smoothing: grayscale;
-		font-smoothing: antialiased;
 		-webkit-font-smoothing: antialiased;
 		text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 	}
@@ -121,7 +122,7 @@ const GlobalStyle = createGlobalStyle`
 	h1, h2, h3, h4, h5, h6 {
 		line-height: 1.25;
 		margin: 16px 0;
-
+		font-family: "Poppins", sans-serif;
 		font-weight: 700;
 		text-transform: capitalize;
 	}

@@ -40,6 +40,74 @@ export const linkedButton = () => (
   </Button>
 );
 
+export const basicRoundButton = () => (
+  <Button round>
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+export const secondaryRoundButton = () => (
+  <Button round variant="secondary">
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+export const tertiaryRoundButton = () => (
+  <Button round variant="tertiary">
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+export const iconRoundButton = () => (
+  <Button
+    round
+    icon={select(icon.label, icon.options, icon.default, icon.group)}
+  >
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+export const functionRoundButton = () => (
+  <Button round onClick={buttonClicked}>
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+export const linkedRoundButton = () => (
+  <Button round href="/route">
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+
+export const basicOutlineButton = () => (
+  <Button outline>
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+export const secondaryOutlineButton = () => (
+  <Button outline variant="secondary">
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+export const tertiaryOutlineButton = () => (
+  <Button outline variant="tertiary">
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+export const iconOutlineButton = () => (
+  <Button
+    outline
+    icon={select(icon.label, icon.options, icon.default, icon.group)}
+  >
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+export const functionOutlineButton = () => (
+  <Button outline onClick={buttonClicked}>
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+export const linkedOutlineButton = () => (
+  <Button outline href="/route">
+    {text(innerText.label, innerText.default, innerText.group)}
+  </Button>
+);
+
 basicButton.story = {
   name: "Basic Button",
   parameters: {
